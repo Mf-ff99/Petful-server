@@ -9,15 +9,15 @@ catsRouter
   .route('/')
   .get((req, res, next) => {
 
-   return res.status(200).json(cats);
+   res.status(200).json(Queue.getAll(cats))
         
   })
 
   .delete((req, res, next) => {
 
-    adopted.enqueue(cats.dequeue());
+    adopted.enqueue(cats.dequeue())
 
-    return res.status(204).end();
+    return res.status(204).end()
     
   });
 
