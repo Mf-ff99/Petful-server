@@ -13,5 +13,4 @@ adopted.enqueue({
   story: 'Surrendered by family due to family issues'
 });
 
-
 module.exports = adopted;
