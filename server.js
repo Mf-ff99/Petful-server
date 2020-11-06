@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const catsRouter = require('.//modules/pets/dogs.router');
+const catsRouter = require('.//modules/pets/cats.router');
 const dogsRouter = require('.//modules/pets/dogs.router');
 const usersRouter = require('.//modules/people/people.router');
 const adoptedRouter = require('.//modules/adopted/adopted.router');
